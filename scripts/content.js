@@ -19,7 +19,7 @@ async function on_youtube_copy_script() {
 
     try {
         await navigator.clipboard.writeText(texts.join("\n"));
-        alert("Transcript copied to clipboard!");
+        // alert("Transcript copied to clipboard!");
     } catch (error) {
         alert("Failed to copy to clipboard: " + error.message);
     }
